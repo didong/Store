@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body >
+<!--header-->
+<div th:fragment="top">
+    <div class="header-top">
+        <div class="container">
+            <div class="col-sm-4 world">
+            </div>
+            <div class="col-sm-4 logo">
+                <a th:href="@{/}"><img th:src="@{/images/logo.png}" alt=""/></a>
+            </div>
+            <div  id="logAndRegiest" class="col-sm-4 header-left">
+                <div class="clearfix"> </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="head-top">
+            <div class="col-sm-2 number">
+                <!--<span><i class="glyphicon glyphicon-phone"></i>888 888 888</span>-->
+            </div>
+            <div class="col-sm-8 h_menu4">
+                <ul class="memenu skyblue">
+                    <li class=" grid"><a  th:href="@{/}">主页</a></li>
+                    <li><a  th:href="@{/}">男装</a>
+                        <div class="mepanel">
+                            <div class="row">
+                                <div class="col1">
+                                    <div class="h_nav">
+                                        <h4>衣服</h4>
+                                        <ul>
+                                            <li><a th:href="@{/}">Shirts</a></li>
+                                            <li><a th:href="@{/}">Sports Wear</a></li>
+                                            <li><a th:href="@{/}">Shorts</a></li>
+                                            <li><a th:href="@{/}">Sulazers</a></li>
+                                            <li><a th:href="@{/}">Formal Shirts</a></li>
+                                            <li><a th:href="@{/}">Sweatpants</a></li>
+                                            <li><a th:href="@{/}">Swimwear</a></li>
+                                            <li><a th:href="@{/}">Trouseros</a></li>
+                                            <li><a th:href="@{/}">T-Shirts</a></li>
+                                            <li><a th:href="@{/}">Underwocks</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col1">
+                                    <div class="h_nav">
+                                        <h4>鞋子</h4>
+                                        <ul>
+                                            <li><a th:href="@{/}">Formal Shoes</a></li>
+                                            <li><a th:href="@{/}">Boots</a></li>
+                                            <li><a th:href="@{/}">Sports Shoes</a></li>
+                                            <li><a th:href="@{/}">Casual Shoes</a></li>
+                                            <li><a th:href="@{/}">Running Shoes</a></li>
+                                            <li><a th:href="@{/}">Sneakers</a></li>
+                                            <li><a th:href="@{/}">Loafers</a></li>
+                                            <li><a th:href="@{/}">Slippers</a></li>
+                                            <li><a th:href="@{/}">Sandals</a></li>
+                                            <li><a th:href="@{/}">Flip-flops</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col1">
+                                    <div class="h_nav">
+                                        <h4>品牌</h4>
+                                        <ul>
+                                            <li><a th:href="@{/}">Levis</a></li>
+                                            <li><a th:href="@{/}">Persol</a></li>
+                                            <li><a th:href="@{/}">Nike</a></li>
+                                            <li><a th:href="@{/}">Edwin</a></li>
+                                            <li><a th:href="@{/}">New Balance</a></li>
+                                            <li><a th:href="@{/}">Jaces</a></li>
+                                            <li><a th:href="@{/}">Paul Smith</a></li>
+                                            <li><a th:href="@{/}">Ray-Ban</a></li>
+                                            <li><a th:href="@{/}">Wood Wood</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="grid"><a  th:href="@{/}">	女装</a>
+                        <div class="mepanel">
+                            <div class="row">
+                                <div class="col1">
+                                    <div class="h_nav">
+                                        <h4>衣服</h4>
+                                        <ul>
+                                            <li><a th:href="@{/}">Shiops</a></li>
+                                            <li><a th:href="@{/}">Sports Wear</a></li>
+                                            <li><a th:href="@{/}">Kurrties</a></li>
+                                            <li><a th:href="@{/}">Surs</a></li>
+                                            <li><a th:href="@{/}">Sarees</a></li>
+                                            <li><a th:href="@{/}">Sweatpants</a></li>
+                                            <li><a th:href="@{/}">Swimwear</a></li>
+                                            <li><a th:href="@{/}">Night-Suits</a></li>
+                                            <li><a th:href="@{/}">T-Shirts</a></li>
+                                            <li><a th:href="@{/}">Jeans</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col1">
+                                    <div class="h_nav">
+                                        <h4>鞋子</h4>
+                                        <ul>
+                                            <li><a th:href="@{/}">Heels</a></li>
+                                            <li><a th:href="@{/}">Flats</a></li>
+                                            <li><a th:href="@{/}">Sports Shoes</a></li>
+                                            <li><a th:href="@{/}">Casual Shoes</a></li>
+                                            <li><a th:href="@{/}">Running Shoes</a></li>
+                                            <li><a th:href="@{/}">Wedges</a></li>
+                                            <li><a th:href="@{/}">Boots</a></li>
+                                            <li><a th:href="@{/}">Pumps</a></li>
+                                            <li><a th:href="@{/}">Slippers</a></li>
+                                            <li><a th:href="@{/}">Flip-flops</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col1">
+                                    <div class="h_nav">
+                                        <h4>品牌</h4>
+                                        <ul>
+                                            <li><a th:href="@{/}">Levis</a></li>
+                                            <li><a th:href="@{/}">Persol</a></li>
+                                            <li><a th:href="@{/}">Nike</a></li>
+                                            <li><a th:href="@{/}">Edwin</a></li>
+                                            <li><a th:href="@{/}">New Balance</a></li>
+                                            <li><a th:href="@{/}">衣服</a></li>
+                                            <li><a th:href="@{/}">Paul Smith</a></li>
+                                            <li><a th:href="@{/}">Ray-Ban</a></li>
+                                            <li><a th:href="@{/}">Wood Wood</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!--<li><a  th:href="@{/}">Blog</a></li>
+                    <li><a class="color6" th:href="@{/}">Conact</a></li>-->
+                </ul>
+            </div>
+            <div class="col-sm-2 search">
+                <!--<a class="play-icon popup-with-zoom-anim" th:href="@{/}"><i class="glyphicon glyphicon-search"> </i> </a>-->
+            </div>
+            <div class="clearfix"> </div>
+
+
+            <div id="small-dialog" class="mfp-hide">
+                <div class="search-top">
+                    <div class="login">
+                        <input type="submit" value=""/>
+                        <input type="text" value="Type something..." onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '';}"/>
+                    </div>
+                    <p>	Shopping</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
